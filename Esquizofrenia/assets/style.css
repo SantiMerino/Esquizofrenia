@@ -15,9 +15,12 @@ body{
 }
 .nav-link{
     color: black;  
-    padding: 20px, 10px !important; 
+    padding: 10px, 10px !important; 
     border-radius: 5px;
     padding-left: 5px !important;
+    margin-left: 10px;
+    transition: all;
+    transition-duration: 1.2s;
 }
 
 a{
@@ -49,10 +52,15 @@ p{
     font-size:larger;
 }
 
+#Sintomas{
+    text-align: center;
+}
+
 .parrafo-negro{
     color: white;
     background-color: black;
     height: fit-content;
+    border-radius: 5px;
 }
 
 .dos-columnas{
@@ -62,6 +70,7 @@ p{
 
 .li{
     font-size: 30px;
+    color:white;
 }
 
 .ul{
@@ -76,6 +85,13 @@ p{
 .row{
     margin-top: 30px;
     align-items: center;
+}
+
+ul{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 600px) {
