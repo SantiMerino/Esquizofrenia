@@ -102,7 +102,7 @@ footer{
     text-align: center;
     background-color: white;
     color: black;
-    height: 50px;
+    height: 70px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -150,6 +150,13 @@ footer{
 
       .parrafo-negro{
           margin-bottom: 10px;
+      }
+
+      .sintomas-text{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
       }
   }
 
