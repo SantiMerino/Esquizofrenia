@@ -53,6 +53,10 @@ p{
 }
 
 #Sintomas{
+    text-align: center !important;
+}
+
+.sintomas-text{
     text-align: center;
 }
 
@@ -83,7 +87,7 @@ p{
 }
 
 .row{
-    margin-top: 30px;
+    margin-top: 30px !important;
     align-items: center;
 }
 
@@ -92,6 +96,15 @@ ul{
     color: white;
     padding: 10px;
     border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -107,7 +120,7 @@ ul{
     }
     .imagen{
         margin:0px;
-        transform: scale(0.8);
+        /* transform: scale(0.9); */
     }
     body{
         margin:0px;
